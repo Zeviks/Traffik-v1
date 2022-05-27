@@ -8,8 +8,13 @@ import { Dashboard, Calendar, Employees, Wordpad, Invoice, Mail, Line } from "./
 
 import "./App.css";
 
+import { useStateContext } from "./contexts/ContextProvider";
+
+
+
 const App = () => {
-  const activeMenu = true;
+  const { activeMenu } = useStateContext();
+  
   return (
     <div>
       <BrowserRouter>
