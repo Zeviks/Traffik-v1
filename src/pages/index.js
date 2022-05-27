@@ -1,6 +1,6 @@
 
 export { default as Dashboard } from './Dashboard';
-export { default as Employee } from './Employee';
+export { default as Employees } from './Employees';
 export { default as Calendar } from './Calendar';
 export { default as Wordpad } from './Wordpad';
 export { default as Line } from './Charts/Line';
