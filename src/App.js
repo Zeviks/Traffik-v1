@@ -51,7 +51,6 @@ const App = () => {
             >
               <Navbar />
             </div>
-          </div>
 
           <div>
             <Routes>
@@ -69,6 +68,7 @@ const App = () => {
               {/* Chart */}
               <Route path="/chart" element={<Line />}/>
             </Routes>
+            </div>
           </div>
         </div>
       </BrowserRouter>
