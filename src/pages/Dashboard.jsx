@@ -76,7 +76,7 @@ const Dashboard = () => {
                   </div>
                   </div>
                   <div className='mt-5 flex gap-10 flex-wrap'>
-                    <div className='w-full md:w-1/2 m-4 pr-10'>
+                    <div className='m-4 pr-10'>
                       <div>
                         <p>
                           <span className='text-3xl font-semibold'>17,444</span>
@@ -118,7 +118,7 @@ const Dashboard = () => {
                     </div>
                       <div>
                         <Stacked 
-                        width="320px"
+                        width="430px"
                         height="360px"
                         />
                       </div>
