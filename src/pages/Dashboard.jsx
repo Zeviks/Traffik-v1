@@ -71,7 +71,7 @@ const Dashboard = () => {
                   <div className='flex items-center gap-4'>
                     <p className='flex items-center gap-2 text-gray-600 hover:drop-shadow-xl'>
                     <span><GoPrimitiveDot /></span>
-                    <span>Expenses</span>
+                    <span>Sessions</span>
                     </p>
                   </div>
                   </div>
