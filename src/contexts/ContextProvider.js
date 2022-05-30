@@ -13,6 +13,15 @@ export const ContextProvider = ({ children }) => {
     const [activeMenu, setActiveMenu] = useState(true);
     const [isClicked, setIsClicked] = useState(initialState);
     const [screenSize, setScreenSize] = useState(undefined);
+    const [currentMode, setCurrentMode ] = useState('Light');
+    const [themeSettings, setThemeSettings ] = useState(false);
+    
+    const setMode = (e) => {
+        setCurrentMode(e.target.value);
+        localStorage.setItem('themeMode', e.target.value);  
+        setThemeSettings(false);
+    }
+
 
     const handleClick = (clicked) => {
         setIsClicked({
@@ -30,6 +39,10 @@ export const ContextProvider = ({ children }) => {
             handleClick,
             screenSize,
             setScreenSize,
+            currentMode, 
+            setMode,
+            themeSettings,
+            setThemeSettings
         }}>
         {children}
         

@@ -919,7 +919,7 @@ export const customersData = [
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
     ProjectName: 'Real Homes WP Theme',
-    Status: 'Pending',
+    Status: 'Away',
     CustomerImage:
       avatar4,
     StatusBg: '#FEC90F',
@@ -933,7 +933,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Completed',
+    Status: 'Active',
     CustomerImage:
       avatar,
     StatusBg: '#8BE78B',
@@ -947,7 +947,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Offline',
     CustomerImage:
       avatar2,
     StatusBg: 'red',
@@ -989,7 +989,7 @@ export const customersData = [
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
     ProjectName: 'Real Homes WP Theme',
-    Status: 'Pending',
+    Status: 'Away',
     CustomerImage:
       avatar4,
     StatusBg: '#FEC90F',
@@ -1003,7 +1003,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Completed',
+    Status: 'Active',
     CustomerImage:
       avatar,
     StatusBg: '#8BE78B',
@@ -1017,7 +1017,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Offline',
     CustomerImage:
       avatar2,
     StatusBg: 'red',
@@ -1059,7 +1059,7 @@ export const customersData = [
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
     ProjectName: 'Real Homes WP Theme',
-    Status: 'Pending',
+    Status: 'Away',
     CustomerImage:
       avatar4,
     StatusBg: '#FEC90F',
@@ -1073,7 +1073,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Completed',
+    Status: 'Active',
     CustomerImage:
       avatar,
     StatusBg: '#8BE78B',
@@ -1087,7 +1087,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Offline',
     CustomerImage:
       avatar2,
     StatusBg: 'red',
@@ -1129,7 +1129,7 @@ export const customersData = [
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
     ProjectName: 'Real Homes WP Theme',
-    Status: 'Pending',
+    Status: 'Away',
     CustomerImage:
       avatar4,
     StatusBg: '#FEC90F',
@@ -1143,7 +1143,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Completed',
+    Status: 'Active',
     CustomerImage:
       avatar,
     StatusBg: '#8BE78B',
@@ -1157,7 +1157,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Offline',
     CustomerImage:
       avatar2,
     StatusBg: 'red',
@@ -1199,7 +1199,7 @@ export const customersData = [
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
     ProjectName: 'Real Homes WP Theme',
-    Status: 'Pending',
+    Status: 'Away',
     CustomerImage:
       avatar4,
     StatusBg: '#FEC90F',
@@ -1213,7 +1213,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Completed',
+    Status: 'Active',
     CustomerImage:
       avatar,
     StatusBg: '#8BE78B',
@@ -1227,7 +1227,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Offline',
     CustomerImage:
       avatar2,
     StatusBg: 'red',
@@ -1269,7 +1269,7 @@ export const customersData = [
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
     ProjectName: 'Real Homes WP Theme',
-    Status: 'Pending',
+    Status: 'Away',
     CustomerImage:
       avatar4,
     StatusBg: '#FEC90F',
@@ -1283,7 +1283,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Completed',
+    Status: 'Active',
     CustomerImage:
       avatar,
     StatusBg: '#8BE78B',
@@ -1297,7 +1297,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Offline',
     CustomerImage:
       avatar2,
     StatusBg: 'red',
@@ -1339,7 +1339,7 @@ export const customersData = [
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
     ProjectName: 'Real Homes WP Theme',
-    Status: 'Pending',
+    Status: 'Away',
     CustomerImage:
       avatar4,
     StatusBg: '#FEC90F',
@@ -1353,7 +1353,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Completed',
+    Status: 'Active',
     CustomerImage:
       avatar,
     StatusBg: '#8BE78B',
@@ -1367,7 +1367,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Offline',
     CustomerImage:
       avatar2,
     StatusBg: 'red',
@@ -1409,7 +1409,7 @@ export const customersData = [
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
     ProjectName: 'Real Homes WP Theme',
-    Status: 'Pending',
+    Status: 'Away',
     CustomerImage:
       avatar4,
     StatusBg: '#FEC90F',
@@ -1422,7 +1422,7 @@ export const customersData = [
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
-    Status: 'Completed',
+    Status: 'Active',
     CustomerImage:
       avatar,
     StatusBg: '#8BE78B',
@@ -1435,7 +1435,7 @@ export const customersData = [
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
-    Status: 'Cancel',
+    Status: 'Offline',
     CustomerImage:
       avatar2,
     StatusBg: 'red',
@@ -3060,7 +3060,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'Germany',
+    name: 'Instagram',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
@@ -3068,7 +3068,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'England',
+    name: 'SnapChat',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
@@ -3076,7 +3076,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[2],
     xName: 'x',
     yName: 'y',
-    name: 'India',
+    name: 'FaceBook',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
