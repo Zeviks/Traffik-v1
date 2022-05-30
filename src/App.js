@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
-
+import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 import { Navbar, Footer, Sidebar, ThemeSettings } from "./components";
 import {
   Dashboard,
@@ -27,14 +27,18 @@ const App = () => {
       <BrowserRouter>
         <div className="flex relative dark:bg-main-dark-bg">
           <div className="fixed right-4 bottom-4" style={{ zIndex: "1000" }}>
-            <TooltipComponent content="Settings" position="Top">
+            <TooltipComponent content="Dark Mode" position="Top">
               <button
                 type="button"
-                className="text-3xl p-3 hover:drop-shadow-xl hover:bg-light-gray text-white"
-                style={{ background: "blue", borderRadius: "50%" }}
+                className="text-3xl p-3 hover:drop-shadow-xl hover:bg-light-gray text-white bg-main-dark-bg transition-all hover:bg-green-300 dark:hover:bg-amber-400"
+                style={{ borderRadius: "50%" }}
                 onClick={() => setThemeSettings(true)}
               >
-                <FiSettings />
+                {currentMode === "Dark" ? (
+                  <BsFillMoonFill />
+                ) : (
+                  <BsFillSunFill />
+                )}
               </button>
             </TooltipComponent>
           </div>
