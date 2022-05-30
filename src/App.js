@@ -3,20 +3,27 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
-import { Navbar, Footer, Sidebar, ThemeSettings } from "./components"
-import { Dashboard, Calendar, Employees, Wordpad, Invoice, Mail, Line } from "./pages";
+import { Navbar, Footer, Sidebar, ThemeSettings } from "./components";
+import {
+  Dashboard,
+  Calendar,
+  Employees,
+  Wordpad,
+  Invoice,
+  Mail,
+  Line,
+} from "./pages";
 
 import "./App.css";
 
 import { useStateContext } from "./contexts/ContextProvider";
 
-
-
 const App = () => {
-  const { activeMenu, themeSettings, setThemeSettings, currentMode } = useStateContext();
-  
+  const { activeMenu, themeSettings, setThemeSettings, currentMode } =
+    useStateContext();
+
   return (
-    <div className={currentMode === 'Dark' ? 'dark' : ''}>
+    <div className={currentMode === "Dark" ? "dark" : ""}>
       <BrowserRouter>
         <div className="flex relative dark:bg-main-dark-bg">
           <div className="fixed right-4 bottom-4" style={{ zIndex: "1000" }}>
@@ -25,7 +32,8 @@ const App = () => {
                 type="button"
                 className="text-3xl p-3 hover:drop-shadow-xl hover:bg-light-gray text-white"
                 style={{ background: "blue", borderRadius: "50%" }}
-                onClick={() => setThemeSettings(true)}>
+                onClick={() => setThemeSettings(true)}
+              >
                 <FiSettings />
               </button>
             </TooltipComponent>
@@ -36,15 +44,12 @@ const App = () => {
             </div>
           ) : (
             <div className="w-0 dark:bg-secondary-dark-bg">
-            <Sidebar />
+              <Sidebar />
             </div>
           )}
           <div
             className={`dark:bg-main-dark-bg bg-main-bg min-h-screen w-full 
-            ${activeMenu 
-              ? "md:ml-72" 
-              : "flex-2"
-            }`}
+            ${activeMenu ? "md:ml-72" : "flex-2"}`}
           >
             <div
               className={
@@ -54,23 +59,23 @@ const App = () => {
               <Navbar />
             </div>
 
-          <div>
-          { themeSettings && <ThemeSettings />}
-            <Routes>
-              {/* Dashboard */}
-              <Route path="/" element={<Dashboard />}/>
-              <Route path="/dashboard" element={<Dashboard />}/>
+            <div>
+              {themeSettings && <ThemeSettings />}
+              <Routes>
+                {/* Dashboard */}
+                <Route path="/" element={<Dashboard />} />
+                <Route path="/dashboard" element={<Dashboard />} />
 
-              {/* Pages */}
-              <Route path="/employees" element={<Employees />}/>
-              <Route path="/calendar" element={<Calendar />}/>
-              <Route path="/wordpad" element={<Wordpad />}/>
-              <Route path="/invoice" element={<Invoice />}/>
-              <Route path="/mail" element={<Mail />}/>
+                {/* Pages */}
+                <Route path="/employees" element={<Employees />} />
+                <Route path="/calendar" element={<Calendar />} />
+                <Route path="/wordpad" element={<Wordpad />} />
+                <Route path="/invoice" element={<Invoice />} />
+                <Route path="/mail" element={<Mail />} />
 
-              {/* Chart */}
-              <Route path="/line" element={<Line />}/>
-            </Routes>
+                {/* Chart */}
+                <Route path="/line" element={<Line />} />
+              </Routes>
             </div>
           </div>
         </div>

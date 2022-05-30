@@ -1,11 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
     margin: 0;
     padding:0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ .primary-color {
+     --color-primary: 20, 18, 31;
+    }
+    
+    .secondary-color {
+     --secondary-color: #F6F4F5;
+     --green-color: rgb(214, 249, 221);
+     --orange-color: #FFEFE7;
+     --l-blue-color: #a4c7f8;
+ }
+
