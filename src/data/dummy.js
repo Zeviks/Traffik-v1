@@ -137,6 +137,28 @@ export const EditorData = () => (
     </h3>
   </div>
 );
+export const EmailData = () => (
+  <div>
+    <h3>
+      Hello [Recipient],
+      <br /> I hope this message finds you well. I'm reaching out today because
+      I'm managin an application redesign project here at [Company] and seeking
+      a skilled [Position] to help analyze several sets of usability testing
+      data. <br />
+      This is a [term-of-project] starting [Start Date], and we estimate it will
+      take roughly 15 hours per week. All work can be completed remotely, but
+      you're welcome to use our workspace. Plese let me know if you're
+      interested in this project ans we can set up some time to discuss the
+      detauils further. I look forward to hearing from you. Sincerly,
+      <br />
+      [Sender]
+      <br />
+      [Sender's Position]
+      <br />
+      [Company]
+    </h3>
+  </div>
+);
 const customerGridImage = (props) => (
   <div className="image flex gap-4">
     <img

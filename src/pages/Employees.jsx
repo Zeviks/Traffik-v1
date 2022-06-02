@@ -22,7 +22,6 @@ const Employees = () => {
       <Header category="Page" title="Employees" />
       <GridComponent
         dataSource={customersData}
-        className={styles.chart}
         style={{
           color: "Red",
           borderRadius: "5px",
