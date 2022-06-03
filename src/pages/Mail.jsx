@@ -43,7 +43,7 @@ const Mail = () => {
             </p>
             <a
               href="#"
-              class="inline-flex items-center py-2 px-3 text-sm  font-medium text-center text-white bg-slate-900 transition-all rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-amber-400 dark:hover:bg-secondary-dark-bg dark:hover:text-white dark:text-slate-900 dark:focus:ring-blue-800"
+              class=" transition-all text-white bg-slate-900 hover:bg-green-200 hover:text-slate-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-amber-400 dark:text-slate-900 dark:hover:bg-secondary-dark-bg dark:hover:text-white dark:focus:ring-blue-800"
             >
               Select Template
               <svg
@@ -82,7 +82,7 @@ const Mail = () => {
             </p>
             <a
               href="#"
-              class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-slate-900 transition-all rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-amber-400 dark:hover:bg-secondary-dark-bg dark:hover:text-white dark:text-slate-900 dark:focus:ring-blue-800"
+              class=" transition-all text-white bg-slate-900 hover:bg-green-200 hover:text-slate-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-amber-400 dark:text-slate-900 dark:hover:bg-secondary-dark-bg dark:hover:text-white dark:focus:ring-blue-800"
             >
               Select Template
               <svg
@@ -121,7 +121,7 @@ const Mail = () => {
             </p>
             <a
               href="#"
-              class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-slate-900 transition-all rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-amber-400 dark:hover:bg-secondary-dark-bg dark:hover:text-white dark:text-slate-900  dark:focus:ring-blue-800"
+              class=" transition-all text-white bg-slate-900 hover:bg-green-200 hover:text-slate-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-amber-400 dark:text-slate-900 dark:hover:bg-secondary-dark-bg dark:hover:text-white dark:focus:ring-blue-800"
             >
               Select Template
               <svg
@@ -194,7 +194,7 @@ const Mail = () => {
       <div>
         <button
           type="submit"
-          class="mt-8 md:mt-5 text-white bg-slate-900 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-amber-400 transition-all dark:hover:bg-secondary-dark-bg  dark:text-slate-900 dark:hover:text-white dark:focus:ring-blue-800"
+          class="mt-8 transition-all text-white bg-slate-900 hover:bg-green-200 hover:text-slate-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-amber-400 dark:text-slate-900 dark:hover:bg-secondary-dark-bg dark:hover:text-white dark:focus:ring-blue-800"
         >
           Send Mail
         </button>

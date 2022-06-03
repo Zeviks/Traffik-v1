@@ -42,7 +42,7 @@ const Profile = () => {
             <div className="xl:w-9/12 w-11/12 mx-auto xl:mx-0">
               <div className="rounded relative mt-8 h-48">
                 <img
-                  src="https://source.unsplash.com/random"
+                  src="https://cdn.tuk.dev/assets/webapp/forms/form_layouts/form1.jpg"
                   alt
                   className="w-full h-full object-cover rounded absolute shadow"
                 />

@@ -1,21 +1,10 @@
 import React from "react";
-import { BsCurrencyDollar } from "react-icons/bs";
 import { GoPrimitiveDot } from "react-icons/go";
 
-import {
-  Stacked,
-  Line,
-  Pie,
-  Button,
-  SparkLine,
-  LineChart,
-} from "../components";
-import { earningData, SparklineAreaData, ecomPieChartDat } from "../data/dummy";
-
-import { useStateContext } from "../contexts/ContextProvider";
+import { Button, SparkLine, LineChart } from "../components";
+import { earningData, SparklineAreaData } from "../data/dummy";
 
 const Dashboard = () => {
-  const { currentMode } = useStateContext();
   return (
     <div className="mt-12">
       <div className="flex flex-wrap lg:flex-nowrap justify-center">
