@@ -11,7 +11,7 @@ import {
   Sort,
   Filter,
 } from "@syncfusion/ej2-react-grids";
-import styles from "../Styles/Employees.module.css";
+
 import { customersData, customersGrid } from "../data/dummy";
 
 import { Header } from "../components";

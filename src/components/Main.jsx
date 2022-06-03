@@ -11,7 +11,7 @@ import {
   Invoice,
   Mail,
   Line,
-  login,
+  Login,
 } from "../pages";
 
 import { useStateContext } from "../contexts/ContextProvider";
@@ -28,7 +28,7 @@ const Main = () => {
             <TooltipComponent content="Dark Mode" position="Top">
               <button
                 type="button"
-                className="text-3xl p-3 hover:drop-shadow-xl hover:bg-light-gray text-white bg-main-dark-bg transition-all hover:bg-green-300 dark:hover:bg-amber-400"
+                className="text-3xl p-3 hover:drop-shadow-xl hover:bg-light-gray text-white bg-main-dark-bg transition-all hover:bg-green-300 hover:text-slate-900 dark:hover:bg-amber-400"
                 style={{ borderRadius: "50%" }}
                 onClick={() => setThemeSettings(true)}
               >
@@ -64,6 +64,7 @@ const Main = () => {
             <div>
               {themeSettings && <ThemeSettings />}
               <Routes>
+                <Route path="/" element={<Login />} />
                 <Route path="/dashboard" element={<Dashboard />} />
 
                 {/* Pages */}

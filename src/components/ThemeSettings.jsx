@@ -13,7 +13,7 @@ const ThemeSettings = () => {
     <div className="bg-half-transparent w-screen fixed nav-item top-0 right-0">
       <div className="float-right h-screen dark:text-main-dark-bg dark:bg-amber-400 bg-white w-400">
         <div className="flex justify-between items-center p-4 ml-4 ">
-          <p className="font-semibold text-lg">Dark Mode</p>
+          <p className="font-semibold text-lg">Theme Settings</p>
           <button
             type="button"
             onClick={() => setThemeSettings(false)}

@@ -1,11 +1,8 @@
 import React from "react";
 import { Header } from "../components";
-import styles from "../Styles/Invoice.module.css";
 const Invoice = () => {
   return (
-    <div
-      className={`${styles.container} m-2 md:m-10 mt-24 p-2 md:p-10 bg-white dark:bg-slate-900 rounded-3xl`}
-    >
+    <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white dark:bg-slate-900 rounded-3xl">
       <Header category="App" title="Invoice" />
       <h2 className="text-xl mb-3 font-extrabold tracking-tight text-slate-900 dark:text-amber-400">
         Invoice Details
