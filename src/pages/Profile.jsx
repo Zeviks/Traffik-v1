@@ -15,9 +15,9 @@ const Profile = () => {
   };
   return (
     <form id="login" onSubmit={handleSubmit}>
-      <div className="bg-white dark:bg-gray-800">
-        <div className="container mx-auto bg-white dark:bg-gray-800 rounded">
-          <div className="xl:w-full border-b border-gray-300 dark:border-gray-700 py-5 bg-white dark:bg-gray-800">
+      <div className="bg-white dark:bg-main-dark-bg">
+        <div className="container mx-auto bg-white dark:bg-main-dark-bg rounded">
+          <div className="xl:w-full border-b border-gray-300 dark:border-gray-700 py-5 bg-white dark:bg-main-dark-bg">
             <div className="flex w-11/12 mx-auto xl:w-full xl:mx-0 items-center">
               <p className="text-lg text-gray-800 dark:text-gray-100 font-bold">
                 Profile
@@ -110,7 +110,7 @@ const Profile = () => {
                   id="username"
                   name="username"
                   required
-                  className="border border-gray-300 dark:border-gray-700 pl-3 py-3 shadow-sm rounded text-sm focus:outline-none focus:border-indigo-700 bg-transparent placeholder-gray-500 text-gray-500 dark:text-gray-400"
+                  className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600  focus:outline-none focus:ring-0 focus:border-slate-900 dark:focus:border-amber-400 peer"
                   placeholder="@example"
                 />
               </div>
@@ -125,7 +125,7 @@ const Profile = () => {
                   id="about"
                   name="about"
                   required
-                  className="bg-transparent border border-gray-300 dark:border-gray-700 pl-3 py-3 shadow-sm rounded text-sm focus:outline-none focus:border-indigo-700 resize-none placeholder-gray-500 text-gray-500 dark:text-gray-400"
+                  className="focus:ring-0 bg-transparent border border-gray-300 dark:border-gray-700 pl-3 py-3 shadow-sm rounded text-sm focus:outline-none focus:border-slate-900 dark:focus:border-amber-400 resize-none placeholder-gray-500 text-slate-900 dark:text-amber-400"
                   placeholder="Let the world know who you are"
                   rows={5}
                   defaultValue={""}
@@ -137,7 +137,7 @@ const Profile = () => {
             </div>
           </div>
         </div>
-        <div className="container mx-auto bg-white dark:bg-gray-800 mt-10 rounded px-4">
+        <div className="container mx-auto bg-white dark:bg-main-dark-bg mt-10 rounded px-4">
           <div className="xl:w-full border-b border-gray-300 dark:border-gray-700 py-5">
             <div className="flex w-11/12 mx-auto xl:w-full xl:mx-0 items-center">
               <p className="text-lg text-gray-800 dark:text-gray-100 font-bold">
@@ -173,7 +173,7 @@ const Profile = () => {
                   id="FirstName"
                   name="firstName"
                   required
-                  className="border border-gray-300 dark:border-gray-700 pl-3 py-3 shadow-sm bg-transparent rounded text-sm focus:outline-none focus:border-indigo-700 placeholder-gray-500 text-gray-500 dark:text-gray-400"
+                  className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600  focus:outline-none focus:ring-0 focus:border-slate-900 dark:focus:border-amber-400 peer"
                   placeholder
                 />
               </div>
@@ -189,7 +189,7 @@ const Profile = () => {
                   id="LastName"
                   name="lastName"
                   required
-                  className="border border-gray-300 dark:border-gray-700 pl-3 py-3 shadow-sm bg-transparent rounded text-sm focus:outline-none focus:border-indigo-700 placeholder-gray-500 text-gray-500 dark:text-gray-400"
+                  className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600  focus:outline-none focus:ring-0 focus:border-slate-900 dark:focus:border-amber-400 peer"
                   placeholder
                 />
               </div>
@@ -224,7 +224,7 @@ const Profile = () => {
                     id="Email"
                     name="email"
                     required
-                    className="pl-3 py-3 w-full text-sm focus:outline-none placeholder-gray-500 rounded bg-transparent text-gray-500 dark:text-gray-400"
+                    className="focus:ring-0 pl-3 py-3 w-full text-sm focus:outline-none  placeholder-gray-500 rounded bg-transparent text-gray-500 dark:text-gray-400"
                     placeholder="example@gmail.com"
                   />
                 </div>
@@ -261,7 +261,7 @@ const Profile = () => {
                   id="StreetAddress"
                   name="streetAddress"
                   required
-                  className="border border-gray-300 dark:border-gray-700 pl-3 py-3 shadow-sm rounded bg-transparent text-sm focus:outline-none focus:border-indigo-700 placeholder-gray-500 text-gray-500 dark:text-gray-400"
+                  className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600  focus:outline-none focus:ring-0 focus:border-slate-900 dark:focus:border-amber-400 peer"
                   placeholder
                 />
               </div>
@@ -272,13 +272,13 @@ const Profile = () => {
                 >
                   City
                 </label>
-                <div className="border border-gray-300 dark:border-gray-700 shadow-sm rounded flex">
+                <div className="focus:ring-0 border border-gray-300 dark:border-gray-700 shadow-sm rounded flex">
                   <input
                     type="text"
                     id="City"
                     name="city"
                     required
-                    className="pl-3 py-3 w-full text-sm focus:outline-none border border-transparent focus:border-indigo-700 bg-transparent rounded placeholder-gray-500 text-gray-500 dark:text-gray-400"
+                    className="focus:ring-0 pl-3 py-3 w-full text-sm focus:outline-none border border-transparent focus:border-slate-900 dark:focus:border-amber-400 bg-transparent rounded placeholder-gray-500 text-gray-500 dark:text-gray-400"
                     placeholder="Los Angeles"
                   />
                   <div className="px-4 flex items-center border-l border-gray-300 dark:border-gray-700 flex-col justify-center text-gray-500 dark:text-gray-400">
@@ -327,7 +327,7 @@ const Profile = () => {
                   id="State/Province"
                   name="state"
                   required
-                  className="border border-gray-300 dark:border-gray-700 pl-3 py-3 shadow-sm bg-transparent rounded text-sm focus:outline-none focus:border-indigo-700 placeholder-gray-500 text-gray-500 dark:text-gray-400"
+                  className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600  focus:outline-none focus:ring-0 focus:border-slate-900 dark:focus:border-amber-400 peer"
                   placeholder="California"
                 />
               </div>
@@ -343,7 +343,7 @@ const Profile = () => {
                   id="Country"
                   name="country"
                   required
-                  className="border bg-transparent border-gray-300 dark:border-gray-700 pl-3 py-3 shadow-sm rounded text-sm focus:outline-none focus:border-indigo-700 placeholder-gray-500 text-gray-500 dark:text-gray-400"
+                  className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600  focus:outline-none focus:ring-0 focus:border-slate-900 dark:focus:border-amber-400 peer"
                   placeholder="United States"
                 />
               </div>
@@ -375,7 +375,7 @@ const Profile = () => {
                   name="zip"
                   required
                   id="ZIP"
-                  className="bg-transparent border border-red-400 pl-3 py-3 shadow-sm rounded text-sm focus:outline-none focus:border-indigo-700 placeholder-gray-500 text-gray-500 dark:text-gray-400"
+                  className="bg-transparent border border-red-400 pl-3 py-3 shadow-sm rounded text-sm focus:outline-none focus:border-slate-900 dark:focus:border-amber-400 placeholder-gray-500 text-gray-500 dark:text-gray-400"
                   placeholder={86745}
                 />
                 <div className="flex justify-between items-center pt-1 text-red-400">
@@ -454,7 +454,7 @@ const Profile = () => {
                     type="checkbox"
                     name="email_comments"
                     id="toggle1"
-                    className="focus:outline-none checkbox w-6 h-6 rounded-full bg-white dark:bg-gray-400 absolute shadow-sm appearance-none cursor-pointer border border-transparent top-0 bottom-0 m-auto"
+                    className="focus:outline-none checkbox w-6 h-6 rounded-full bg-white dark:bg-main-dark-bg absolute shadow-sm appearance-none cursor-pointer border border-transparent top-0 bottom-0 m-auto"
                   />
                   <label
                     htmlFor="toggle1"
@@ -476,7 +476,7 @@ const Profile = () => {
                     type="checkbox"
                     name="email_job_application"
                     id="toggle2"
-                    className="focus:outline-none checkbox w-6 h-6 rounded-full bg-white dark:bg-gray-400 absolute shadow-sm appearance-none cursor-pointer border border-transparent top-0 bottom-0 m-auto"
+                    className="focus:outline-none checkbox w-6 h-6 rounded-full bg-white dark:bg-main-dark-bg absolute shadow-sm appearance-none cursor-pointer border border-transparent top-0 bottom-0 m-auto"
                   />
                   <label
                     htmlFor="toggle2"
@@ -546,7 +546,7 @@ const Profile = () => {
                     type="checkbox"
                     name="notification_comment"
                     id="toggle4"
-                    className="focus:outline-none checkbox w-6 h-6 rounded-full bg-white dark:bg-gray-400 absolute shadow-sm appearance-none cursor-pointer border border-transparent top-0 bottom-0 m-auto"
+                    className="focus:outline-none checkbox w-6 h-6 rounded-full bg-white dark:bg-main-dark-bg absolute shadow-sm appearance-none cursor-pointer border border-transparent top-0 bottom-0 m-auto"
                   />
                   <label
                     htmlFor="toggle4"
@@ -568,7 +568,7 @@ const Profile = () => {
                     type="checkbox"
                     name="notification_application"
                     id="toggle5"
-                    className="focus:outline-none checkbox w-6 h-6 rounded-full bg-white dark:bg-gray-400 absolute shadow-sm appearance-none cursor-pointer border border-transparent top-0 bottom-0 m-auto"
+                    className="focus:outline-none checkbox w-6 h-6 rounded-full bg-white dark:bg-main-dark-bg absolute shadow-sm appearance-none cursor-pointer border border-transparent top-0 bottom-0 m-auto"
                   />
                   <label
                     htmlFor="toggle5"
@@ -591,7 +591,7 @@ const Profile = () => {
                     type="checkbox"
                     name="notification_updates"
                     id="toggle6"
-                    className="focus:outline-none checkbox w-6 h-6 rounded-full bg-white dark:bg-gray-400 absolute shadow-sm appearance-none cursor-pointer border border-transparent top-0 bottom-0 m-auto"
+                    className="focus:outline-none checkbox w-6 h-6 rounded-full bg-white dark:bg-main-dark-bg absolute shadow-sm appearance-none cursor-pointer border border-transparent top-0 bottom-0 m-auto"
                   />
                   <label
                     htmlFor="toggle6"
@@ -603,17 +603,17 @@ const Profile = () => {
           </div>
         </div>
         <div className="container mx-auto w-11/12 xl:w-full">
-          <div className="w-full py-4 sm:px-0 bg-white dark:bg-gray-800 flex justify-end">
+          <div className="w-full py-4 sm:px-0 bg-white dark:bg-gray-800 flex justify-start">
             <Link to="/dashboard">
-              <button className="bg-gray-200 focus:outline-none transition duration-150 ease-in-out hover:bg-gray-300 dark:bg-gray-700 rounded text-indigo-600 dark:text-indigo-600 px-6 py-2 text-xs mr-4">
+              <button className=" transition-all text-slate-900 bg-green-200 hover:bg-green-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-secondary-dark-bg dark:text-white dark:hover:bg-slate-700  dark:focus:ring-blue-800">
                 Cancel
               </button>
             </Link>
             <button
-              className="bg-indigo-700 focus:outline-none transition duration-150 ease-in-out hover:bg-indigo-600 rounded text-white px-8 py-2 text-sm"
+              className=" transition-all text-white bg-slate-900 hover:bg-green-200 hover:text-slate-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-amber-400 dark:text-slate-900 dark:hover:bg-secondary-dark-bg dark:hover:text-white dark:focus:ring-blue-800"
               type="submit"
             >
-              Save
+              Update
             </button>
           </div>
         </div>
