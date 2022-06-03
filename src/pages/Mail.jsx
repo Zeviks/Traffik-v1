@@ -9,8 +9,6 @@ import {
   Toolbar,
 } from "@syncfusion/ej2-react-richtexteditor";
 
-import { FaTelegramPlane } from "react-icons/fa";
-
 import { EmailData } from "../data/dummy";
 import { Header } from "../components";
 
@@ -23,7 +21,7 @@ const Mail = () => {
       </h2>
       <div className=" justify-items-center my-5 grid sm:grid-cols-3 sm:gap-4 sm:grid-rows-1">
         <div class="max-w-lg bg-white rounded-lg border mb-2 border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
+          <a href="/#">
             <img
               class="rounded-t-lg"
               src="https://source.unsplash.com/random/200×200/?nature"
@@ -31,7 +29,7 @@ const Mail = () => {
             />
           </a>
           <div class="p-5">
-            <a href="#">
+            <a href="/#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Make an Announcemnt
               </h5>
@@ -41,8 +39,7 @@ const Mail = () => {
               Neutral formality, this is the perfect fit Sharing details about a
               sale, event, or other big news.
             </p>
-            <a
-              href="#"
+            <a href="/#"
               class=" transition-all text-white bg-slate-900 hover:bg-green-200 hover:text-slate-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-amber-400 dark:text-slate-900 dark:hover:bg-secondary-dark-bg dark:hover:text-white dark:focus:ring-blue-800"
             >
               Select Template
@@ -62,7 +59,7 @@ const Mail = () => {
           </div>
         </div>
         <div class="max-w-lg bg-white mb-2 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
+          <a href="/#">
             <img
               class="rounded-t-lg"
               src="https://source.unsplash.com/random/200×200/?nature"
@@ -70,7 +67,7 @@ const Mail = () => {
             />
           </a>
           <div class="p-5">
-            <a href="#">
+            <a href="/#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Follow Up
               </h5>
@@ -81,7 +78,7 @@ const Mail = () => {
               with you.
             </p>
             <a
-              href="#"
+              href="/#"
               class=" transition-all text-white bg-slate-900 hover:bg-green-200 hover:text-slate-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-amber-400 dark:text-slate-900 dark:hover:bg-secondary-dark-bg dark:hover:text-white dark:focus:ring-blue-800"
             >
               Select Template
@@ -101,7 +98,7 @@ const Mail = () => {
           </div>
         </div>
         <div class="max-w-lg bg-white rounded-lg mb-2 border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
+          <a href="/#">
             <img
               class="rounded-t-lg"
               src="https://source.unsplash.com/random/200×200/?nature"
@@ -109,7 +106,7 @@ const Mail = () => {
             />
           </a>
           <div class="p-5">
-            <a href="#">
+            <a href="/#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Educate
               </h5>
@@ -120,7 +117,7 @@ const Mail = () => {
               products or share knowledge about a topic.
             </p>
             <a
-              href="#"
+              href="/#"
               class=" transition-all text-white bg-slate-900 hover:bg-green-200 hover:text-slate-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-amber-400 dark:text-slate-900 dark:hover:bg-secondary-dark-bg dark:hover:text-white dark:focus:ring-blue-800"
             >
               Select Template

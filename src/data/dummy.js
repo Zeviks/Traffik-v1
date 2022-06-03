@@ -2,20 +2,16 @@ import React from "react";
 import {
   AiOutlineDashboard,
   AiOutlineCalendar,
-  AiOutlineBarChart,
   AiOutlineStock,
 } from "react-icons/ai";
 import {
-  FiShoppingBag,
   FiEdit,
-  FiPieChart,
   FiBarChart,
   FiCreditCard,
   FiStar,
   FiShoppingCart,
 } from "react-icons/fi";
 import {
-  BsBoxSeam,
   BsCurrencyDollar,
   BsShield,
   BsChatLeft,

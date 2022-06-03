@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import { useStateContext } from "../contexts/ContextProvider";
-
 export default function SignUp() {
-  const { setActiveMenu } = useStateContext();
   const [showpass, setShowPass] = useState(false);
   return (
     <>
@@ -50,7 +47,7 @@ export default function SignUp() {
             </p>
             <button
               aria-label="Continue with google"
-              role="button"
+              type="button"
               className="focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-gray-700 p-3 border rounded-lg border-gray-700 flex items-center w-full mt-10 hover:bg-green-100 dark:hover:bg-amber-300 transition-all text-gray-700 dark:text-white dark:hover:text-slate-900"
             >
               <svg
@@ -83,7 +80,7 @@ export default function SignUp() {
             </button>
             <button
               aria-label="Continue with github"
-              role="button"
+              type="button"
               className="focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-gray-700 p-3 border rounded-lg border-gray-700 flex items-center w-full mt-4 hover:bg-green-100 transition-all dark:hover:bg-amber-300 dark:text-white dark:hover:text-slate-900"
             >
               <svg
@@ -104,7 +101,7 @@ export default function SignUp() {
             </button>
             <button
               aria-label="Continue with twitter"
-              role="button"
+              type="button"
               className="focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-gray-700 p-3 border rounded-lg border-gray-700 flex items-center w-full mt-4 hover:bg-green-100 transition-all dark:hover:bg-amber-300 dark:text-white dark:hover:text-slate-900"
             >
               <svg
@@ -314,7 +311,7 @@ export default function SignUp() {
               <div className="w-8 h-8">
                 <img
                   src="https://i.ibb.co/xLtZCRT/Mask-Group.png"
-                  alt="profile picture"
+                  alt=""
                   className="w-full h-full"
                 />
               </div>
