@@ -12,6 +12,8 @@ import {
   Mail,
   Line,
   Login,
+  SignUp,
+  Profile,
 } from "../pages";
 
 import { useStateContext } from "../contexts/ContextProvider";
@@ -65,7 +67,9 @@ const Main = () => {
               {themeSettings && <ThemeSettings />}
               <Routes>
                 <Route path="/" element={<Login />} />
+                <Route path="/signup" element={<SignUp />} />
                 <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/profile" element={<Profile />} />
 
                 {/* Pages */}
                 <Route path="/employees" element={<Employees />} />

@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useRef } from "react";
+import { Link } from "react-router-dom";
+
 const Profile = () => {
   let form = useRef(null);
   const handleSubmit = (event) => {
@@ -40,7 +42,7 @@ const Profile = () => {
             <div className="xl:w-9/12 w-11/12 mx-auto xl:mx-0">
               <div className="rounded relative mt-8 h-48">
                 <img
-                  src="https://cdn.tuk.dev/assets/webapp/forms/form_layouts/form1.jpg"
+                  src="https://source.unsplash.com/random"
                   alt
                   className="w-full h-full object-cover rounded absolute shadow"
                 />
@@ -602,9 +604,11 @@ const Profile = () => {
         </div>
         <div className="container mx-auto w-11/12 xl:w-full">
           <div className="w-full py-4 sm:px-0 bg-white dark:bg-gray-800 flex justify-end">
-            <button className="bg-gray-200 focus:outline-none transition duration-150 ease-in-out hover:bg-gray-300 dark:bg-gray-700 rounded text-indigo-600 dark:text-indigo-600 px-6 py-2 text-xs mr-4">
-              Cancel
-            </button>
+            <Link to="/dashboard">
+              <button className="bg-gray-200 focus:outline-none transition duration-150 ease-in-out hover:bg-gray-300 dark:bg-gray-700 rounded text-indigo-600 dark:text-indigo-600 px-6 py-2 text-xs mr-4">
+                Cancel
+              </button>
+            </Link>
             <button
               className="bg-indigo-700 focus:outline-none transition duration-150 ease-in-out hover:bg-indigo-600 rounded text-white px-8 py-2 text-sm"
               type="submit"

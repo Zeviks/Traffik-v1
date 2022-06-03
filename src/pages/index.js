@@ -6,3 +6,5 @@ export { default as Line } from "./Charts/Line";
 export { default as Invoice } from "./Invoice";
 export { default as Mail } from "./Mail";
 export { default as Login } from "./Login";
+export { default as SignUp } from "./SignUp";
+export { default as Profile } from "./Profile";
