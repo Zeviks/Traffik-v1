@@ -3,7 +3,7 @@ import { Header } from "../components";
 const Invoice = () => {
   return (
     <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white dark:bg-slate-900 rounded-3xl">
-      <Header category="App" title="Invoice" />
+      <Header category="Resource" title="Invoice" />
       <h2 className="text-xl mb-3 font-extrabold tracking-tight text-slate-900 dark:text-amber-400">
         Invoice Details
       </h2>
@@ -33,7 +33,7 @@ const Invoice = () => {
             required
           />
           <label
-            for="inoivce_address"
+            for="invoice_address"
             class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-slate-900 dark:peer-focus:text-amber-300 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
             Client's Address (Ex. 123 Main Street)
@@ -61,12 +61,12 @@ const Invoice = () => {
             type="email"
             name="invoice_email"
             id="invoice_email"
-            class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-slate-900 dark:focus:border-amber-400 peer"
+            class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 d focus:outline-none focus:ring-0 focus:border-slate-900 dark:focus:border-amber-400 peer"
             placeholder=" "
             required
           />
           <label
-            for="invoice_phone"
+            for="invoice_email"
             class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-slate-900 dark:peer-focus:text-amber-300 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
             Email address
@@ -142,12 +142,23 @@ const Invoice = () => {
           </select>
         </div>
       </form>
-      <button
-        type="submit"
-        class="mt-8 transition-all text-white bg-slate-900 hover:bg-green-200 hover:text-slate-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-amber-400 dark:text-slate-900 dark:hover:bg-secondary-dark-bg dark:hover:text-white dark:focus:ring-blue-800"
-      >
-        Generate PDF
-      </button>
+      <a href="../data/Invoice.pdf" download>
+        <button
+          type="button"
+          download="invoice-001.pdf"
+          class="mt-8 transition-all text-white bg-slate-900 hover:bg-green-200 hover:text-slate-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-amber-400 dark:text-slate-900 dark:hover:bg-secondary-dark-bg dark:hover:text-white dark:focus:ring-blue-800"
+        >
+          Generate in PDF
+        </button>
+      </a>
+      <a href="Invoice.png" download>
+        <button
+          type="button"
+          class="mt-8 transition-all text-white bg-slate-900 hover:bg-green-200 hover:text-slate-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-amber-400 dark:text-slate-900 dark:hover:bg-secondary-dark-bg dark:hover:text-white dark:focus:ring-blue-800"
+        >
+          Generate in PNG
+        </button>
+      </a>
     </div>
   );
 };

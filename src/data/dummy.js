@@ -11,11 +11,8 @@ import {
   FiStar,
   FiShoppingCart,
 } from "react-icons/fi";
-import {
-  BsCurrencyDollar,
-  BsShield,
-  BsChatLeft,
-} from "react-icons/bs";
+import { HiPencilAlt } from "react-icons/hi";
+import { BsCurrencyDollar, BsShield, BsChatLeft } from "react-icons/bs";
 import { FaRegEye } from "react-icons/fa";
 import { IoMdContacts } from "react-icons/io";
 import { MdOutlineSupervisorAccount } from "react-icons/md";
@@ -844,7 +841,7 @@ export const themeColors = [
 
 export const userProfileData = [
   {
-    icon: <BsCurrencyDollar />,
+    icon: <HiPencilAlt />,
     title: "My Profile",
     desc: "Account Settings",
     iconColor: "#03C9D7",
