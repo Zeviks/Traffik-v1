@@ -15,6 +15,6 @@ Features:</br>
 Visit Site🌏: [https://volt-video-chat-app.vercel.app/](https://magical-tartufo-bcf44a.netlify.app/) </br>
 
 
-Thanks for taking the time and looking at my project, any feedback is muchly appreciated!✨ </br>
+Thanks for taking the time to look at my project, any feedback is muchly appreciated!✨ </br>
 
 
