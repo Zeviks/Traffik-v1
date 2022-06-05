@@ -66,8 +66,7 @@ const Main = () => {
             <div>
               {themeSettings && <ThemeSettings />}
               <Routes>
-                <Route path="/" element={<Login />} />
-                <Route path="/signup" element={<SignUp />} />
+                <Route path="/" element={<Dashboard />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/profile" element={<Profile />} />
 
