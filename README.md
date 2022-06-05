@@ -12,7 +12,7 @@ Features:</br>
 
 ![Traffik](https://user-images.githubusercontent.com/68613251/172070237-a8e29704-8a98-4649-98bd-36eca45135d6.gif)
 
-Visit Site🌏: [https://volt-video-chat-app.vercel.app/](https://magical-tartufo-bcf44a.netlify.app/) </br>
+Visit Site🌏: (https://magical-tartufo-bcf44a.netlify.app/) </br>
 
 
 Thanks for taking the time to look at my project, any feedback is muchly appreciated!✨ </br>
